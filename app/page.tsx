@@ -12,7 +12,7 @@ export default function Home() {
             <Image className='rounded-xl' src={qrCode} alt='QR Code' />
           </div>
           <div className='flex flex-col gap-y-4 px-6 pt-2 pb-8 text-center'>
-            <div className='text-2xl font-bold text-dark-blue'>
+            <div className='text-xl font-bold text-dark-blue'>
               Improve your front-end skills by building projects
             </div>
             <p className='font-medium text-grayish-blue'>
