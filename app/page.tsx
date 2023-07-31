@@ -21,7 +21,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <footer className='absolute inset-x-0 bottom-0 text-center mb-4'>
+        <div className='absolute inset-x-0 bottom-0 text-center mb-4'>
           <p className='text-xs text-accent-blue'>
             Challenge by{" "}
             <Link
@@ -33,7 +33,7 @@ export default function Home() {
             . Coded by{" "}
             <Link href='https://github.com/AustonianAI'>Austin Johnson</Link>.
           </p>
-        </footer>
+        </div>
       </div>
     </main>
   );

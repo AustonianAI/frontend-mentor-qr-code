@@ -41,13 +41,13 @@ While I've had plenty of experience copying existing Tailwind classes, I've been
 
 One challenge was creating a footer element that is displayed at the bottom of the user's screen. I was able to accomplish this using the following pattern of Tailwind classes.
 
-```js
+```jsx
 <main className='bg-light-gray relative h-screen'>
   <div className='absolute inset-0 flex flex-col items-center justify-center'>
     // Main Page Content
-    <footer className='absolute inset-x-0 bottom-0 text-center mb-4'>
+    <div className='absolute inset-x-0 bottom-0 text-center mb-4'>
       <p className='text-xs text-accent-blue'>// Footer Content</p>
-    </footer>
+    </div>
   </div>
 </main>
 ```
